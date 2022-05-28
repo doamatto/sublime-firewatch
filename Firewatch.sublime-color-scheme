@@ -8,7 +8,7 @@
 		"white": "#ebebff",
 
 		"red": "hsl(355, 65%, 65%)",
-		"orange": "hsl(39, 67%, 69%)",
+		"orange": "hsl(29, 54%, 61%)",
 		"yellow": "#FA0",
 		"green": "#528bff",
 		"pink": "#c8ae9d"
@@ -68,7 +68,7 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword.control, keyword.other, keyword.declaration, punctuation.definition.keyword, variable.language, storage.modifier, storage.type, keyword.declaration.function, constant.character.escape, constant.language, constant.other.placeholder",
+			"scope": "keyword.control, keyword.other, keyword.declaration, punctuation.definition.keyword, variable.language, storage.modifier, keyword.declaration.function, constant.character.escape, constant.language, constant.other.placeholder",
 			"foreground": "var(red)"
 		},
 		{
@@ -83,7 +83,7 @@
 		},
 		{
 			"name": "class",
-			"scope": "support.class, storage.constant, entity.other, entity.other.attribute-name",
+			"scope": "support.class, storage.constant, entity.other, entity.other.attribute-name, support.type, support.type.go, support.type.builtin.go",
 			"foreground": "var(orange)"
 		},
 		{
